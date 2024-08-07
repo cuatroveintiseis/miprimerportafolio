@@ -1,0 +1,12 @@
+.custom-link{
+    color: $black;
+
+    &:hover{
+        color: $primary-color;
+    }
+}
+
+.custom-brand{
+    color: $primary-color;
+ font-weight: bold;
+}

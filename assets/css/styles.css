@@ -1,3 +1,36 @@
 @import "https://stackpath.bootstrapcdn.com/bootstrap/5.3.3/css/bootstrap.min.css";
+body {
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.custom-link {
+  color: #000000;
+}
+.custom-link:hover {
+  color: #26AEF9;
+}
+
+.custom-brand {
+  color: #26AEF9;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #26AEF9;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+}
+
+.perfil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.perfil h3 {
+  color: #26AEF9;
+  font-weight: 700;
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,11 @@
+.perfil {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h3{
+        color: $primary-color;
+        font-weight: 700;
+    }
+
+}
