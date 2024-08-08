@@ -7,6 +7,7 @@
     <title>Daniela Morales</title>
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/5ed8d384a1.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -123,51 +124,108 @@
         <h3 class="text-center mt-5 mb-5">Mis proyectos</h3>
         <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
             <div class="col">
-              <div class="card h-100">
-                <img src="assets/img/Captura de pantalla_7-8-2024_194057_127.0.0.1.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Ricomida</h5>
+                <div class="card h-100">
+                    <img src="assets/img/Captura de pantalla_7-8-2024_194057_127.0.0.1.jpeg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ricomida</h5>
+                    </div>
                 </div>
-              </div>
             </div>
             <div class="col">
-              <div class="card h-100">
-                <img src="assets/img/Captura de pantalla_7-8-2024_194341_127.0.0.1.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Viajes chile</h5>
+                <div class="card h-100">
+                    <img src="assets/img/Captura de pantalla_7-8-2024_194341_127.0.0.1.jpeg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Viajes chile</h5>
+                    </div>
                 </div>
-              </div>
             </div>
             <div class="col">
-              <div class="card h-100">
-                <img src="assets/img/Captura de pantalla_7-8-2024_194545_127.0.0.1.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Iguana Page</h5>
+                <div class="card h-100">
+                    <img src="assets/img/Captura de pantalla_7-8-2024_194545_127.0.0.1.jpeg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Iguana Page</h5>
+                    </div>
                 </div>
-              </div>
             </div>
             <div class="col">
-              <div class="card h-100">
-                <img src="assets/img/Captura de pantalla_7-8-2024_195155_127.0.0.1.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Blog Front-end</h5>
-                  
+                <div class="card h-100">
+                    <img src="assets/img/Captura de pantalla_7-8-2024_195155_127.0.0.1.jpeg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Blog Front-end</h5>
+
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-        
+        </div>
+
 
 
     </section>
 
-    <form class="contactame">
+    <div class="contact">
         <h3 class="text-center mt-5 mb-5">Contáctame</h3>
-        <div>
-            
-        </div>
-    </form>
+        <div class="contact-form container pt-1" id="contacto">
+            <div class="form w-50">
+                <form class="text-dark">
+                    <form class="text-dark">
+                        <div class="mb-3">
+    
+                            <div class="d-flex">
+                                <input type="text" class="form-control me-3" id="nombre" aria-describedby="emailHelp"
+                                    placeholder="Nombre">
+                                <input type="text" class="form-control" id="apellido" aria-describedby="emailHelp"
+                                    placeholder="Apellido">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Tu Email">
+                        </div>
+                        <div class="mb-3">
 
+                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Asunto">
+                        </div>
+                        <div class="mb-3">
+
+                            <textarea class="form-control" id="mensaje" style="height: 100px; resize: none;"
+                                placeholder="Mensaje"></textarea>
+                        </div>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start my-4">
+                            <button class="button rounded px-4" data-bs-toggle="tooltip" data-bs-placement="right"
+                                data-bs-title="Presiona para enviar a tu mensaje" id="enviarCorreo">Enviar</button>
+                        </div>
+                    </form>
+
+
+                   
+                        
+                    
+
+            </div>
+            <div class="social-links">
+                <a class="social-link" href="https://github.com/cuatroveintiseis" target="_blank">
+                    <i class="fa-brands fa-square-github pe-2"></i>
+                    <p>www.github.com</p>
+                </a>
+                <a class="social-link" href="https://www.linkedin.com" target="_blank">
+                    <i class="fa-brands fa-linkedin pe-2"></i>
+                    <p>www.github.com</p>
+                </a>
+                <a class="social-link" href="https://twitter.com" target="_blank">
+                    <i class="fa-brands fa-square-twitter pe-2"></i>
+                    <p>www.github.com</p>
+                </a>
+                <a class="social-link" href="https://www.facebook.com" target="_blank">
+                    <i class="fa-brands fa-square-facebook pe-2"></i>
+                    <p>www.github.com</p>
+                </a>
+            </div>
+        </div>
+    </div>
 
 
 </body>

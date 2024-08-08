@@ -60,4 +60,51 @@ body {
   font-size: 20px;
 }
 
+.social-links {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.social-link {
+  display: flex;
+}
+.social-link i {
+  gap: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.form {
+  padding-right: 50px;
+}
+
+@media (min-width: 768px) {
+  .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .form {
+    width: 50%;
+  }
+  .social-links {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  .contact-form {
+    display: block;
+    width: 100% !important;
+  }
+  .form {
+    width: 100% !important;
+  }
+  .social-links {
+    width: 100% !important;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
