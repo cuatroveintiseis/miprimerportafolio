@@ -23,6 +23,11 @@ body {
   padding: 5px 10px;
 }
 
+.card img {
+  height: 25em;
+  width: auto;
+}
+
 .perfil {
   display: flex;
   flex-direction: column;
@@ -33,6 +38,14 @@ body {
   font-weight: 700;
 }
 
+@media (max-width: 576px) {
+  .perfil {
+    text-align: center;
+  }
+  .perfil h2 {
+    text-align: center;
+  }
+}
 .logos {
   display: flex;
   flex-direction: row;
