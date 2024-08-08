@@ -63,14 +63,25 @@ body {
 .social-links {
   display: flex;
   flex-direction: column;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .social-link {
   display: flex;
+  text-decoration: none;
+  align-items: center;
 }
 .social-link i {
-  gap: 10px;
+  font-size: 16px;
+  color: #26AEF9;
+}
+.social-link p {
+  font-size: 20px;
+  padding-top: 16px;
+  color: #26AEF9;
+}
+.social-link p:hover {
+  color: #666;
 }
 
 .contact-form {
@@ -105,6 +116,16 @@ body {
   .social-links {
     width: 100% !important;
   }
+}
+footer {
+  background-color: #26AEF9;
+}
+
+.footer-copyright {
+  color: #ffffff;
+}
+.footer-copyright i {
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=styles.css.map */

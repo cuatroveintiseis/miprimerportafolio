@@ -29,13 +29,13 @@
                         <a class="nav-link custom-link" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link custom-link" href="#">Mis habilidades</a>
+                        <a class="nav-link custom-link" href="#mis-habilidades">Mis habilidades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link custom-link" href="#">Proyectos</a>
+                        <a class="nav-link custom-link" href="#proyectos">Proyectos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link custom-link" href="#">Contacto</a>
+                        <a class="nav-link custom-link" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -48,21 +48,22 @@
                 <img class="img-fluid" src="assets/img/undraw_Dev_focus_re_6iwt.png" alt="ilustracion-mujer">
             </div>
             <div class="perfil col-12 col-md-6">
-                <h2>Hola! Soy Daniela Morales.</h2>
+                <h2>Soy Daniela Morales.</h2>
                 <h3>Diseñadora UX/UI & <br> Desarrolladora Front End</h3>
                 <p class="mt-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore neque accusantium
                     consequuntur
                     assumenda, perspiciatis velit possimus dolores sit fugiat eum, consectetur facere provident, aperiam
                     quis voluptates. Nihil molestias debitis modi.</p>
                 <div>
-                    <button class="button mt-2 rounded px-4">Contáctame</button>
+                    <button class="button mt-2 rounded px-4" data-bs-toggle="tooltip" data-bs-placement="right"
+                        data-bs-title="Presiona para contactarme">Contáctame</button>
                 </div>
             </div>
         </div>
 
     </header>
 
-    <section class="habilidades mt-4">
+    <section class="habilidades mt-4" id="mis-habilidades">
         <h3 class="text-center mb-5">Mis habilidades</h3>
         <div class="container">
             <div class="row col-12 row-md-6 justify-content-center">
@@ -120,7 +121,7 @@
 
     </section>
 
-    <section class="mis-proyectos container">
+    <section class="mis-proyectos container" id="proyectos">
         <h3 class="text-center mt-5 mb-5">Mis proyectos</h3>
         <div class="row row-cols-2 row-cols-md-2 row-cols-lg-4 g-4">
             <div class="col">
@@ -166,66 +167,94 @@
 
     </section>
 
-    <div class="contact">
+    <div class="contact" id="contacto">
         <h3 class="text-center mt-5 mb-5">Contáctame</h3>
         <div class="contact-form container pt-1" id="contacto">
             <div class="form w-50">
+
                 <form class="text-dark">
-                    <form class="text-dark">
-                        <div class="mb-3">
-    
-                            <div class="d-flex">
-                                <input type="text" class="form-control me-3" id="nombre" aria-describedby="emailHelp"
-                                    placeholder="Nombre">
-                                <input type="text" class="form-control" id="apellido" aria-describedby="emailHelp"
-                                    placeholder="Apellido">
-                            </div>
-                        </div>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Tu Email">
-                        </div>
-                        <div class="mb-3">
+                    <div class="mb-3">
 
-                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Asunto">
+                        <div class="d-flex">
+                            <input type="text" class="form-control me-3" id="nombre" aria-describedby="emailHelp"
+                                placeholder="Nombre">
+                            <input type="text" class="form-control" id="apellido" aria-describedby="emailHelp"
+                                placeholder="Apellido">
                         </div>
-                        <div class="mb-3">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Tu Email">
+                    </div>
+                    <div class="mb-3">
 
-                            <textarea class="form-control" id="mensaje" style="height: 100px; resize: none;"
-                                placeholder="Mensaje"></textarea>
-                        </div>
-                        <div class="d-grid gap-2 d-md-flex justify-content-md-start my-4">
-                            <button class="button rounded px-4" data-bs-toggle="tooltip" data-bs-placement="right"
-                                data-bs-title="Presiona para enviar a tu mensaje" id="enviarCorreo">Enviar</button>
-                        </div>
-                    </form>
+                        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Asunto">
+                    </div>
+                    <div class="mb-3">
+
+                        <textarea class="form-control" id="mensaje" style="height: 100px; resize: none;"
+                            placeholder="Mensaje"></textarea>
+                    </div>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start my-4">
+                        <button class="button rounded px-4" data-bs-toggle="tooltip" data-bs-placement="right"
+                            data-bs-title="Presiona para enviar tu mensaje" id="enviarMensaje">Enviar</button>
+                    </div>
+                </form>
 
 
-                   
-                        
-                    
+
+
+
 
             </div>
             <div class="social-links">
-                <a class="social-link" href="https://github.com/cuatroveintiseis" target="_blank">
-                    <i class="fa-brands fa-square-github pe-2"></i>
-                    <p>www.github.com</p>
+                <a class="social-link" href="https://web.whatsapp.com/" target="_blank">
+                    <i class="fa-solid fa-phone pe-2"></i>
+                    <p>+ 56 973140990</p>
                 </a>
-                <a class="social-link" href="https://www.linkedin.com" target="_blank">
+                <a class="social-link" href="https://www.linkedin.com/in/daniela-morales-meléndez-761660137/"
+                    target="_blank">
+                    <i class="fa-solid fa-envelope pe-2"></i>
+                    <p>dnlmrlsm@gmail.com</p>
+                </a>
+
+                <a class="social-link" href="https://www.linkedin.com/in/daniela-morales-meléndez-761660137/"
+                    target="_blank">
                     <i class="fa-brands fa-linkedin pe-2"></i>
-                    <p>www.github.com</p>
+                    <p>Mi linkedin</p>
                 </a>
-                <a class="social-link" href="https://twitter.com" target="_blank">
-                    <i class="fa-brands fa-square-twitter pe-2"></i>
-                    <p>www.github.com</p>
+                <a class="social-link" href="https://github.com/cuatroveintiseis/" target="_blank">
+                    <i class="fa-brands fa-square-github pe-2"></i>
+                    <p>Mi github</p>
                 </a>
-                <a class="social-link" href="https://www.facebook.com" target="_blank">
+
+                <a class="social-link" href="https://www.behance.net/danielamorales82/" target="_blank">
                     <i class="fa-brands fa-square-facebook pe-2"></i>
-                    <p>www.github.com</p>
+                    <p>Me behance</p>
                 </a>
             </div>
         </div>
     </div>
+
+    <footer class="footer-copyright">
+        <div class="container d-flex justify-content-center pt-3">
+            <i class="fa-regular fa-copyright pe-2 mt-1"></i>
+            <p> Daniela Morales - 2024</p>
+
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 
 
 </body>
